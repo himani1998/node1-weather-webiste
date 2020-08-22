@@ -100,6 +100,6 @@ app.get('*',(req,res)=>{
    })
 })
 
-app.listen(port,()=>{
+app.listen(Port,()=>{
     console.log('Server is up on port' + port )
 })
